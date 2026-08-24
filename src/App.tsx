@@ -1,13 +1,7 @@
-
-import './App.css'
+import { Auth } from './components/Auth';
 
 function App() {
-  
-  return (
-    <>
-      
-    </>
-  )
+  return <Auth />;
 }
 
-export default App
+export default App;
