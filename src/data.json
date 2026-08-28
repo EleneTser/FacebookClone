@@ -1,0 +1,388 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "name": "Tatuli Togonidze",
+      "username": "tatuli.togonidze",
+      "profileImage": "/images/users/Girl1.jpg"
+    },
+    {
+      "id": "user_002",
+      "name": "Luka Beridze",
+      "username": "luka.beridze",
+      "profileImage": "/images/users/Guy1.jpg"
+    },
+    {
+      "id": "user_003",
+      "name": "Mari Gelashvili",
+      "username": "mari.gelashvili",
+      "profileImage": "/images/users/Girl2.jpg"
+    },
+    {
+      "id": "user_004",
+      "name": "Giorgi Kapanadze",
+      "username": "giorgi.kapanadze",
+      "profileImage": "/images/users/Guy2.jpg"
+    },
+    {
+      "id": "user_005",
+      "name": "Ana Maisuradze",
+      "username": "ana.maisuradze",
+      "profileImage": "/images/users/Girl3.jpg"
+    },
+    {
+      "id": "user_006",
+      "name": "Saba Tsiklauri",
+      "username": "saba.tsiklauri",
+      "profileImage": "/images/users/Guy3.jpg"
+    },
+    {
+      "id": "user_007",
+      "name": "Elene Mchedlishvili",
+      "username": "elene.mchedlishvili",
+      "profileImage": "/images/users/Girl4.jpg"
+    },
+    {
+      "id": "user_008",
+      "name": "Dato Chikovani",
+      "username": "dato.chikovani",
+      "profileImage": "/images/users/Guy4.jpg"
+    },
+    {
+      "id": "user_009",
+      "name": "Tako Abashidze",
+      "username": "tako.abashidze",
+      "profileImage": "/images/users/Girl5.jpg"
+    },
+    {
+      "id": "user_010",
+      "name": "Nika Lomidze",
+      "username": "nika.lomidze",
+      "profileImage": "/images/users/Guy5.jpg"
+    },
+    {
+      "id": "user_011",
+      "name": "Salome Kiknadze",
+      "username": "salome.kiknadze",
+      "profileImage": "/images/users/Girl6.jpg"
+    },
+    {
+      "id": "user_012",
+      "name": "Guga Maisuradze",
+      "username": "guga.maisuradze",
+      "profileImage": "/images/users/Guy6.jpg"
+    },
+    {
+      "id": "user_013",
+      "name": "Lizi Chkheidze",
+      "username": "lizi.chkheidze",
+      "profileImage": "/images/users/Girl7.jpg"
+    },
+    {
+      "id": "user_014",
+      "name": "Irakli Shengelia",
+      "username": "irakli.shengelia",
+      "profileImage": "/images/users/Guy7.jpg"
+    },
+    {
+      "id": "user_015",
+      "name": "Keti Japaridze",
+      "username": "keti.japaridze",
+      "profileImage": "/images/users/Girl8.jpg"
+    },
+    {
+      "id": "user_016",
+      "name": "Beka Khutsishvili",
+      "username": "beka.khutsishvili",
+      "profileImage": "/images/users/Guy8.jpg"
+    },
+    {
+      "id": "user_017",
+      "name": "Sofia Tsintsadze",
+      "username": "sofia.tsintsadze",
+      "profileImage": "/images/users/Girl9.jpg"
+    },
+    {
+      "id": "user_018",
+      "name": "Levan Gogoladze",
+      "username": "levan.gogoladze",
+      "profileImage": "/images/users/Guy9.jpg"
+    },
+    {
+      "id": "user_019",
+      "name": "Natia Kharadze",
+      "username": "natia.kharadze",
+      "profileImage": "/images/users/Girl10.jpg"
+    },
+    {
+      "id": "user_020",
+      "name": "Davit Metreveli",
+      "username": "davit.metreveli",
+      "profileImage": "/images/users/Guy10.jpg"
+    }
+  ],
+
+  "posts": [
+    {
+      "id": "post_001",
+      "userId": "user_001",
+      "image": "/images/posts/post-4.jpg",
+      "description": "Beautiful day exploring the city ✨",
+      "createdAt": "2 hours ago",
+      "likes": [
+        "user_002",
+        "user_003",
+        "user_005",
+        "user_007",
+        "user_012",
+        "user_015"
+      ],
+      "comments": [
+        {
+          "id": "comment_001",
+          "userId": "user_002",
+          "text": "This looks amazing! 🔥"
+        },
+        {
+          "id": "comment_002",
+          "userId": "user_003",
+          "text": "Beautiful! 😍"
+        },
+        {
+          "id": "comment_003",
+          "userId": "user_017",
+          "text": "Love this place ❤️"
+        }
+      ]
+    },
+    {
+      "id": "post_002",
+      "userId": "user_002",
+      "image": "/images/posts/post-3.jpg",
+      "description": "Coffee and good conversations ☕",
+      "createdAt": "3 hours ago",
+      "likes": [
+        "user_001",
+        "user_004",
+        "user_008",
+        "user_011",
+        "user_014"
+      ],
+      "comments": [
+        {
+          "id": "comment_004",
+          "userId": "user_001",
+          "text": "Looks delicious ☕😍"
+        },
+        {
+          "id": "comment_005",
+          "userId": "user_009",
+          "text": "Save one for me 😂"
+        }
+      ]
+    },
+    {
+      "id": "post_003",
+      "userId": "user_003",
+      "image": "/images/posts/post-2.jpg",
+      "description": "Weekend adventures 🌄",
+      "createdAt": "5 hours ago",
+      "likes": [
+        "user_001",
+        "user_002",
+        "user_004",
+        "user_006",
+        "user_009",
+        "user_013",
+        "user_016",
+        "user_020"
+      ],
+      "comments": [
+        {
+          "id": "comment_006",
+          "userId": "user_004",
+          "text": "The view is incredible!"
+        },
+        {
+          "id": "comment_007",
+          "userId": "user_005",
+          "text": "Adding this to my travel list!"
+        },
+        {
+          "id": "comment_008",
+          "userId": "user_018",
+          "text": "Where is this? 👀"
+        }
+      ]
+    },
+    {
+      "id": "post_004",
+      "userId": "user_004",
+      "image": "/images/posts/post-1.jpg",
+      "description": "Enjoying the sunset 🌅",
+      "createdAt": "Yesterday",
+      "likes": [
+        "user_001",
+        "user_003",
+        "user_007",
+        "user_010",
+        "user_017"
+      ],
+      "comments": [
+        {
+          "id": "comment_009",
+          "userId": "user_003",
+          "text": "Absolutely beautiful ❤️"
+        },
+        {
+          "id": "comment_010",
+          "userId": "user_019",
+          "text": "Perfect sunset!"
+        }
+      ]
+    },
+    {
+      "id": "post_005",
+      "userId": "user_005",
+      "image": "/images/posts/post-5.jpg",
+      "description": "My favorite place in the world 🌊",
+      "createdAt": "Yesterday",
+      "likes": [
+        "user_001",
+        "user_002",
+        "user_006",
+        "user_011",
+        "user_014",
+        "user_020"
+      ],
+      "comments": [
+        {
+          "id": "comment_011",
+          "userId": "user_006",
+          "text": "Wow 😮"
+        },
+        {
+          "id": "comment_012",
+          "userId": "user_015",
+          "text": "I need to visit this place!"
+        }
+      ]
+    },
+    {
+      "id": "post_006",
+      "userId": "user_006",
+      "image": "/images/posts/post-6.jpg",
+      "description": "Another day, another adventure 🚗",
+      "createdAt": "Yesterday",
+      "likes": [
+        "user_002",
+        "user_003",
+        "user_005",
+        "user_008",
+        "user_018"
+      ],
+      "comments": [
+        {
+          "id": "comment_013",
+          "userId": "user_002",
+          "text": "Where is this place?"
+        },
+        {
+          "id": "comment_014",
+          "userId": "user_016",
+          "text": "Looks like a great trip!"
+        }
+      ]
+    },
+    {
+      "id": "post_007",
+      "userId": "user_007",
+      "image": "/images/posts/post-7.jpg",
+      "description": "Sunday mood ☀️",
+      "createdAt": "2 days ago",
+      "likes": [
+        "user_001",
+        "user_004",
+        "user_006",
+        "user_012",
+        "user_013"
+      ],
+      "comments": [
+        {
+          "id": "comment_015",
+          "userId": "user_005",
+          "text": "Love this vibe!"
+        }
+      ]
+    },
+    {
+      "id": "post_008",
+      "userId": "user_008",
+      "image": "/images/posts/post-8.jpg",
+      "description": "Good food, good mood 🍕",
+      "createdAt": "2 days ago",
+      "likes": [
+        "user_001",
+        "user_002",
+        "user_003",
+        "user_007",
+        "user_010",
+        "user_019"
+      ],
+      "comments": [
+        {
+          "id": "comment_016",
+          "userId": "user_001",
+          "text": "I need this right now 😂"
+        },
+        {
+          "id": "comment_017",
+          "userId": "user_014",
+          "text": "That looks so good!"
+        }
+      ]
+    },
+    {
+      "id": "post_009",
+      "userId": "user_009",
+      "image": "/images/posts/post-9.jpg",
+      "description": "Little moments matter ❤️",
+      "createdAt": "3 days ago",
+      "likes": [
+        "user_001",
+        "user_005",
+        "user_006",
+        "user_011",
+        "user_017"
+      ],
+      "comments": [
+        {
+          "id": "comment_018",
+          "userId": "user_017",
+          "text": "So true ❤️"
+        }
+      ]
+    },
+    {
+      "id": "post_010",
+      "userId": "user_010",
+      "image": "/images/posts/post-10.jpg",
+      "description": "Late night drives 🚘",
+      "createdAt": "3 days ago",
+      "likes": [
+        "user_002",
+        "user_004",
+        "user_007",
+        "user_015",
+        "user_020"
+      ],
+      "comments": [
+        {
+          "id": "comment_019",
+          "userId": "user_006",
+          "text": "Best feeling!"
+        }
+      ]
+    }
+  ]
+}

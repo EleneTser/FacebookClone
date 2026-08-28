@@ -1,7 +1,4 @@
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @font-face {
   font-family: 'FacebookSans';
@@ -17,7 +14,7 @@
   font-style: normal;
 }
 
-/* This makes every text element use your custom font by default */
+
 body {
   font-family: 'FacebookSans', sans-serif;
 }
